@@ -229,12 +229,13 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
   
-  #logo {  
+  #logo {    
     background-color: purple;  
-    width: 620px;
+    width: 600px;
     /* text-align: center; */
   }  
   nav {
+    position: static;
     margin-top: 25px;
     width: 600px;
     text-align: center;
