@@ -231,11 +231,12 @@ input[type=submit] {
   
   #logo {  
     background-color: purple;  
-    width: 620px;
+    width: 640px;
+    text-align: center;
   }  
   nav {
     margin-top: 25px;
-    width: 600px;
+    width: 640px;
     text-align: center;
   }
   .main-section {    
