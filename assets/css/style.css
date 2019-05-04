@@ -51,7 +51,7 @@ h2, h3 {
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
-  overflow: auto;
+  /* overflow: auto; */
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
@@ -232,7 +232,6 @@ input[type=submit] {
   #logo {  
     background-color: purple;  
     width: 620px;
-    text-align: center;    
   }  
   nav {
     margin-top: 25px;
@@ -244,9 +243,9 @@ input[type=submit] {
     max-width: 640px;  
   }
   .auth-image {    
-    width: 400px;    
+    width: 100%;    
   } 
   .work {   
-    width: 400px;    
+    width: 100%;    
   }   
 }
