@@ -222,23 +222,31 @@ input[type=submit] {
   }   
   nav {
     margin-top: 25px;
-    width: 400px;
+    width: 350px;
     text-align: center;
   } 
 }
 
 @media screen and (max-width: 640px) {
-  
+  #masthead {
+    position: static;
+    clear: both;
+  }  
   #logo {    
     background-color: purple;  
-    width: 600px;
-    /* text-align: center; */
-  }  
-  nav {
-    position: static;
-    margin-top: 25px;
-    width: 600px;
+    max-width: 640px;
+    width:100%;
     text-align: center;
+  }
+  nav {
+    margin-top: 25px;
+    max-width: 640px;
+    width:100%;
+    text-align: center;
+  }
+  #main-container {
+    padding-top: 10px;
+    min-height: calc(100vh - 70px);
   }
   .main-section {    
     width: 100%;
@@ -246,7 +254,7 @@ input[type=submit] {
   }
   .auth-image {    
     width: 100%;    
-  } 
+  }
   .work {   
     width: 100%;    
   }   
